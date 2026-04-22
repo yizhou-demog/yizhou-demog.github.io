@@ -1,12 +1,199 @@
----
-layout: default
----
-<article class="post">
-  <header class="post-header">
-    <h1 class="post-title">{{ page.title }}</h1>
-  </header>
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }} | {{site.affiliation}}</title>
 
-  <div class="post-content">
-    {{ content }}
-  </div>
-</article>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="icon" media="(prefers-color-scheme:dark)" href="{{ site.favicon_dark }}" type="image/png" />
+    <link rel="icon" media="(prefers-color-scheme:light)" href="{{ site.favicon }}" type="image/png" />
+    <script src="{{ "/assets/js/favicon-switcher.js" | relative_url }}" type="application/javascript"></script>
+
+    <link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin=anonymous>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    {% if site.font == "Sans Serif" %}
+    <link rel="stylesheet" href="{{ "/assets/css/font_sans_serif.css" | relative_url }}">
+    {% else %}
+    <link rel="stylesheet" href="{{ "/assets/css/font.css" | relative_url }}">
+    {% endif %}
+    {% if site.auto_dark_mode %}
+    <link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}">
+    <link rel="stylesheet" href="{{ "/assets/css/publications.css" | relative_url }}">
+    {% else %}
+    <link rel="stylesheet" href="{{ "/assets/css/style-no-dark-mode.css" | relative_url }}">
+    <link rel="stylesheet" href="{{ "/assets/css/publications-no-dark-mode.css" | relative_url }}">
+    {% endif %}
+
+    <style>
+      .global-top-nav {
+        border-bottom: 1px solid #eaeaea;
+        background-color: rgba(252, 251, 249, 0.95);
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        backdrop-filter: blur(8px);
+        -webkit-backdrop-filter: blur(8px);
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      }
+      .global-nav-container {
+        max-width: 900px;
+        margin: 0 auto;
+        padding: 1rem 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .global-nav-title {
+        font-family: "Noto Serif SC", "Source Han Serif SC", Georgia, "Times New Roman", serif;
+        font-size: 1.3rem;
+        font-weight: 700;
+        color: #2b2b2b;
+        text-decoration: none;
+        letter-spacing: 0.5px;
+      }
+      .global-nav-title:hover {
+        color: #8C0014; /* 北大红 */
+        text-decoration: none;
+      }
+      .global-nav-links {
+        display: flex;
+        gap: 1.5rem;
+      }
+      .global-nav-item {
+        font-size: 0.95rem;
+        color: #555;
+        font-weight: 500;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+        text-decoration: none;
+        position: relative;
+        transition: color 0.2s ease;
+      }
+      .global-nav-item::after {
+        content: '';
+        position: absolute;
+        width: 0;
+        height: 2px;
+        bottom: -4px;
+        left: 0;
+        background-color: #8C0014;
+        transition: width 0.3s ease;
+      }
+      .global-nav-item:hover {
+        color: #8C0014;
+      }
+      .global-nav-item:hover::after {
+        width: 100%;
+      }
+      @media (max-width: 768px) {
+        .global-nav-container {
+          flex-direction: column;
+          gap: 0.8rem;
+          padding: 0.8rem 20px;
+        }
+        .global-nav-links {
+          flex-wrap: wrap;
+          justify-content: center;
+          gap: 1rem;
+        }
+      }
+      .wrapper {
+        margin-top: 2rem !important; 
+      }
+      /* 【关键修复】确保页面标题正常排布，不再悬浮 */
+      .page-title-box {
+        margin-bottom: 2rem;
+      }
+    </style>
+  </head>
+  <body>
+
+    <div class="global-top-nav">
+      <div class="global-nav-container">
+        <a class="global-nav-title" href="{{ '/' | relative_url }}">Yi Zhou</a>
+        <nav class="global-nav-links">
+          <a href="{{ '/' | relative_url }}" class="global-nav-item">Home</a>
+          <a href="{{ '/publications/' | relative_url }}" class="global-nav-item">Publications</a>
+          <a href="{{ '/research/' | relative_url }}" class="global-nav-item">Research</a>
+          <a href="{{ '/teaching/' | relative_url }}" class="global-nav-item">Teaching</a>
+        </nav>
+      </div>
+    </div>
+
+    <div class="wrapper">
+      
+      <header>
+        {% if site.avatar %}
+        <a class="image avatar"><img src="{{ site.avatar }}" alt="avatar" /></a>
+        {% endif %}
+
+        <h1>{{ site.title }}</h1>
+
+        {% if site.position %}
+        <position style="font-size:1.10rem;">{{ site.position }}</position>
+        <br>
+        {% endif %}
+        {% if site.affiliation %}
+        <a href="{{ site.affiliation_link }}" rel="noopener"><autocolor>{{ site.affiliation }}</autocolor></a>
+        <br>
+        {% endif %}
+        {% if site.email %}
+        <email>{{ site.email }}</email>
+        {% endif %}
+
+        <br>
+        <br>
+        <div class="social-icons">
+        {% if site.google_scholar %}
+        <a style="margin: 0 5px 0 0" href="{{ site.google_scholar }}">
+          <i class="ai ai-google-scholar" style="font-size:1.2rem"></i>
+        </a>  
+        {% endif %}
+        {% if site.cv_link %}
+        <a style="margin: 0 5px 0 0" href="{{ site.cv_link }}">
+          <i class="ai ai-cv" style="font-size:1.3rem;"></i>
+        </a>
+        {% endif %}
+        {% if site.github_link %}
+        <a style="margin: 0 5px 0 0" href="{{ site.github_link }}">
+          <i class="fab fa-github"></i>
+        </a>
+        {% endif %}
+        </div>
+        <br>
+      </header>
+
+      <section>
+        
+        <div class="page-title-box">
+          <h1>{{ page.title }}</h1>
+        </div>
+
+        {{ content }}
+
+        <br>
+        {% if site.enable_footnote %}
+        <p><small>Powered by Jekyll and <a href="https://github.com/yaoyao-liu/minimal-light" target="_blank" rel="noopener">Minimal Light</a> theme.</small></p>
+        {% endif %}
+
+      </section>
+
+      <footer></footer>
+    </div>
+
+    <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
+    {% if site.google_analytics %}
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+      ga('create', '{{ site.google_analytics }}', 'auto');
+      ga('send', 'pageview');
+    </script>
+    {% endif %}
+  </body>
+</html>
