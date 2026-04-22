@@ -7,15 +7,13 @@ email: yizhou [at] pku [dot] edu [dot] cn
 # Search Engine Optimization (SEO)
 # The following information is used to improve the website traffic from search engines, e.g., Google.
 keywords: Yi Zhou, Peking University, Economoic Demography, Formal Demography, Aging, Family, Quantitative Social Science,
-description: Yi Zhou is a tenured associate professor at Peking University. His research focuses on economic demography, formal demography, and quantitative social science.
+description: Yi Zhou is an associate professor (tenured) at Peking University. His research focuses on economic demography, formal demography, and quantitative social science.
 canonical: https://yizhou-demog.github.io/
 
 # Links 
 # If you don't need one of them, you may delete the corresponding line.
 google_scholar: https://scholar.google.com/citations?user=UipFIycAAAAJ&hl=en
 cv_link: assets/files/Yi_Zhou_CV.pdf
-work_link: csr.pku.edu.cn
-
 
 # Images (e.g., your profile picture and your website's favicon) 
 # "favicon" and "favicon_dark" are used for the light and dark modes, respectively. 
