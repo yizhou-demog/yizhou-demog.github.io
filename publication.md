@@ -83,8 +83,7 @@ permalink: /publications/
 - 黄炜、任昶宇、<strong>周羿</strong><sup>&#42;</sup>：《退休制度、劳动供给与收入消费动态》，《经济研究》，2023年第1期，第141—157页。  
   *English title:* “Retirement Institutions, Labor Supply, and the Dynamics of Income and Consumption.”
 
-  <sub>第五届中国劳动经济学者论坛年会优秀论文奖（2021年）</sub>
-  <sub>收录《中国人口年鉴2024》</sub>
+  <sub>第五届中国劳动经济学者论坛年会优秀论文奖（2021年）<br>收录《中国人口年鉴2024》</sub>
 
 - 周伊敏、周默涵、魏旭、<strong>周羿</strong><sup>&#42;</sup>：《机遇还是挑战：宏观冲击对微观创新的影响》，《中国工业经济》，2023年第1期，第38—56页。  
   *English title:* “Opportunity or Challenge: The Impact of Macro Shocks on Micro Innovation.”
@@ -118,8 +117,7 @@ permalink: /publications/
 - 田巍、姚洋、余淼杰、<strong>周羿</strong>：《人口结构与国际贸易》，《经济研究》，2013年第48卷第11期，第87—99页。  
   *English title:* “Population Structure and International Trade.”
 
-  <sub>第十八届“安子介国际贸易研究奖”优秀论文三等奖</sub>
-  <sub>《经济研究》编辑部推荐收录于《中国经济学2013》一书</sub>
+  <sub>第十八届“安子介国际贸易研究奖”优秀论文三等奖<br>《经济研究》编辑部推荐收录于《中国经济学2013》一书</sub>
 
 
 ## Other Publications
