@@ -3,7 +3,7 @@ layout: page
 title: Publications
 permalink: /publications/
 ---
-
+<div class="publication-list">
 ## Journal Articles
 
 
