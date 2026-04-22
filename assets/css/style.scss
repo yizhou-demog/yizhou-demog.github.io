@@ -7,44 +7,17 @@
   --pku-red: #8C1D40;
   --text-main: #222222;
   --text-soft: #666666;
+  --text-muted: #888888;
   --line-soft: #E7E1DA;
+  --line-strong: #D8CFC6;
   --bg-soft: #FAF8F5;
+  --bg-note: #F7F3EE;
 }
 
-/* overall typography */
+/* overall */
 body {
   color: var(--text-main);
-}
-
-/* links */
-a {
-  color: var(--pku-red);
-  text-decoration: none;
-}
-
-a:hover {
-  color: var(--pku-red);
-  opacity: 0.85;
-  text-decoration: none;
-}
-
-/* section titles */
-h2 {
-  font-size: 1.35rem;
-  margin-top: 2.2rem;
-  margin-bottom: 0.9rem;
-  padding-bottom: 0.3rem;
-  border-bottom: 2px solid var(--pku-red);
-  color: var(--text-main);
-}
-
-h3 {
-  font-size: 1.05rem;
-  margin-top: 1.5rem;
-  margin-bottom: 0.7rem;
-  padding-left: 0.6rem;
-  border-left: 4px solid var(--pku-red);
-  color: var(--text-main);
+  background-color: #FCFBF9;
 }
 
 /* page width */
@@ -52,64 +25,85 @@ h3 {
 .container,
 main,
 article {
-  max-width: 900px;
+  max-width: 920px;
 }
 
-/* body text */
+/* links */
+a {
+  color: var(--pku-red);
+  text-decoration: none;
+  transition: all 0.18s ease;
+}
+
+a:hover {
+  color: var(--pku-red);
+  opacity: 0.9;
+  text-decoration: none;
+}
+
+/* main page title */
+h1 {
+  margin-bottom: 1.2rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 3px solid var(--pku-red);
+  letter-spacing: 0.01em;
+}
+
+/* section titles */
+h2 {
+  font-size: 1.42rem;
+  margin-top: 2.4rem;
+  margin-bottom: 1rem;
+  padding-bottom: 0.35rem;
+  border-bottom: 2px solid var(--pku-red);
+  color: var(--text-main);
+  letter-spacing: 0.01em;
+}
+
+/* subsection titles */
+h3 {
+  display: inline-block;
+  font-size: 1.02rem;
+  margin-top: 1.5rem;
+  margin-bottom: 0.85rem;
+  padding: 0.2rem 0 0.2rem 0.7rem;
+  border-left: 5px solid var(--pku-red);
+  color: var(--text-main);
+  background: linear-gradient(to right, rgba(140,29,64,0.05), rgba(140,29,64,0));
+}
+
+/* text */
 p {
-  line-height: 1.75;
+  line-height: 1.8;
   margin-bottom: 1rem;
 }
 
-/* make markdown lists cleaner across pages */
+/* lists */
 main ul,
 main ol,
 article ul,
 article ol,
 .wrapper ul,
 .wrapper ol {
-  margin-top: 0.6rem;
-  margin-bottom: 1.2rem;
-  padding-left: 1.2rem;
+  margin-top: 0.7rem;
+  margin-bottom: 1.5rem;
+  padding-left: 1.4rem;
 }
 
+/* bibliography-like entries */
 main li,
 article li,
 .wrapper li {
-  margin-bottom: 0.95rem;
-  line-height: 1.75;
+  margin-bottom: 1.05rem;
+  line-height: 1.82;
+  padding-left: 0.4rem;
 }
 
-/* nicer bibliography-style spacing */
-main li + li,
-article li + li,
-.wrapper li + li {
-  margin-top: 0.2rem;
-}
-
-/* publication links as subtle pills */
-main li a,
-article li a,
-.wrapper li a {
-  display: inline-block;
-  margin-left: 0.35rem;
-  padding: 0.06rem 0.42rem;
-  font-size: 0.8rem;
-  line-height: 1.2;
-  border: 1px solid var(--line-soft);
-  border-radius: 999px;
-  color: var(--pku-red);
-  background: transparent;
-  text-decoration: none;
-  vertical-align: baseline;
-}
-
-main li a:hover,
-article li a:hover,
-.wrapper li a:hover {
-  background: var(--bg-soft);
-  border-color: var(--pku-red);
-  text-decoration: none;
+/* hanging-indent effect for long entries */
+main li,
+article li,
+.wrapper li {
+  text-indent: -0.4rem;
 }
 
 /* emphasize author names */
@@ -118,21 +112,58 @@ strong {
   color: var(--text-main);
 }
 
-/* corresponding author marker */
+/* corresponding author star */
 sup {
   font-size: 0.72em;
   vertical-align: super;
   line-height: 0;
 }
 
-/* footnotes / notes */
+/* journal/article links */
+main li a,
+article li a,
+.wrapper li a {
+  display: inline-block;
+  margin-left: 0.4rem;
+  padding: 0.08rem 0.5rem;
+  font-size: 0.79rem;
+  line-height: 1.2;
+  border: 1px solid var(--line-strong);
+  border-radius: 999px;
+  color: var(--pku-red);
+  background: #fff;
+  vertical-align: baseline;
+  box-shadow: 0 0 0 0 rgba(0,0,0,0);
+}
+
+main li a:hover,
+article li a:hover,
+.wrapper li a:hover {
+  background: var(--bg-soft);
+  border-color: var(--pku-red);
+  transform: translateY(-1px);
+}
+
+/* note / award blocks */
 sub {
   display: block;
-  margin-top: 0.25rem;
-  margin-bottom: 0.7rem;
+  margin-top: 0.35rem;
+  margin-bottom: 0.8rem;
+  margin-left: 0.2rem;
+  padding: 0.45rem 0.7rem;
   color: var(--text-soft);
   font-size: 0.82rem;
-  line-height: 1.55;
+  line-height: 1.6;
+  background: var(--bg-note);
+  border-left: 3px solid var(--pku-red);
+  border-radius: 4px;
+}
+
+/* horizontal rules */
+hr {
+  border: none;
+  border-top: 1px solid var(--line-soft);
+  margin: 2rem 0;
 }
 
 /* blockquotes */
@@ -143,11 +174,22 @@ blockquote {
   color: var(--text-soft);
 }
 
-/* horizontal rules */
-hr {
-  border: none;
-  border-top: 1px solid var(--line-soft);
-  margin: 2rem 0;
+/* tables */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1rem 0 1.5rem 0;
+}
+
+th,
+td {
+  padding: 0.65rem 0.75rem;
+  border-bottom: 1px solid var(--line-soft);
+  text-align: left;
+}
+
+th {
+  color: var(--text-main);
 }
 
 /* images */
@@ -156,14 +198,23 @@ img {
   height: auto;
 }
 
+/* softer spacing for first element */
+.page-content > *:first-child {
+  margin-top: 0;
+}
+
 /* mobile */
 @media (max-width: 768px) {
+  h1 {
+    font-size: 1.6rem;
+  }
+
   h2 {
     font-size: 1.25rem;
   }
 
   h3 {
-    font-size: 1rem;
+    font-size: 0.98rem;
   }
 
   main ul,
@@ -176,7 +227,11 @@ img {
   article li a,
   .wrapper li a {
     margin-left: 0.25rem;
-    padding: 0.05rem 0.36rem;
-    font-size: 0.76rem;
+    padding: 0.06rem 0.4rem;
+    font-size: 0.75rem;
+  }
+
+  sub {
+    padding: 0.4rem 0.6rem;
   }
 }
