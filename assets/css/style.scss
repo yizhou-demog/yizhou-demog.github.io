@@ -3,235 +3,372 @@
 
 @import "{{ site.theme }}";
 
+/* ==========================================================
+   1. 字体：Georgia（北大官方英文标准字体）+ 思源宋体
+   ========================================================== */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;500;600;700&display=swap');
+
+/* ==========================================================
+   2. 色彩系统：真正的北大红 + 燕园辅色
+   ========================================================== */
 :root {
-  --pku-red: #8C1D40;
-  --text-main: #222222;
-  --text-soft: #666666;
-  --text-muted: #888888;
-  --line-soft: #E7E1DA;
-  --line-strong: #D8CFC6;
-  --bg-soft: #FAF8F5;
-  --bg-note: #F7F3EE;
+  /* 主色：官方北大红 CMYK(0,100,100,45) → RGB(140,0,0) */
+  --pku-red: #8C0000;
+  --pku-red-deep: #6B0000;      /* 用于 hover */
+  --pku-red-soft: #A83838;      /* 用于次级强调 */
+
+  /* 辅色：取自燕园——未名湖湖水色、琉璃黄（极少量使用） */
+  --pku-ink:    #1A1A1A;        /* 主文字，比纯黑柔和 */
+  --pku-slate:  #3E3A36;        /* 次级文字 */
+  --pku-stone:  #6B655E;        /* 元信息、备注 */
+  --pku-gold:   #B8860B;        /* 金色点缀，留给极少量场景 */
+
+  /* 线条与底色：淡化到接近宣纸 */
+  --line-soft:   #EAE4DB;
+  --line-mid:    #D4CCBF;
+  --bg-paper:    #FBF8F3;       /* 页面主底，微米白 */
+  --bg-card:     #F6F1E8;       /* 注释、脚注等卡片底 */
 }
 
-/* overall */
+/* ==========================================================
+   3. 全局基础：字体栈与基础排版
+   ========================================================== */
 body {
-  color: var(--text-main);
-  background-color: #FCFBF9;
+  font-family: Georgia,
+               "Noto Serif SC",
+               "Source Han Serif SC",
+               "Songti SC",
+               "宋体",
+               serif;
+  color: var(--pku-ink);
+  background-color: var(--bg-paper);
+  font-size: 16.5px;
+  line-height: 1.78;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-/* page width */
+/* 中文字符单独指定宋体，保证中英混排观感统一 */
+:lang(zh),
+.zh {
+  font-family: "Noto Serif SC", "Source Han Serif SC", "Songti SC", "宋体", serif;
+}
+
+/* 阅读宽度：学术文字不宜过宽 */
 .wrapper,
 .container,
 main,
 article {
-  max-width: 920px;
+  max-width: 880px;
 }
 
-/* links */
+/* ==========================================================
+   4. 链接：低调的暗红下划线，彻底移除胶囊按钮
+   ========================================================== */
 a {
   color: var(--pku-red);
   text-decoration: none;
-  transition: all 0.18s ease;
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.2s ease, color 0.2s ease;
 }
 
 a:hover {
-  color: var(--pku-red);
-  opacity: 0.9;
-  text-decoration: none;
+  color: var(--pku-red-deep);
+  border-bottom-color: var(--pku-red);
 }
 
-/* main page title */
+/* ==========================================================
+   5. 标题层级
+   ========================================================== */
+
+/* 页面主标题：Publications / Research / Teaching */
 h1 {
-  margin-bottom: 1.2rem;
-  padding-bottom: 0.5rem;
-  border-bottom: 3px solid var(--pku-red);
+  font-family: Georgia, "Noto Serif SC", serif;
+  font-weight: 700;
+  font-size: 2rem;
   letter-spacing: 0.01em;
+  margin: 0.3rem 0 1.6rem 0;
+  padding-bottom: 0.6rem;
+  position: relative;
+  color: var(--pku-ink);
 }
 
-/* section titles */
+/* 标题下方一粗一细的双线，呼应传统印章与古籍版式 */
+h1::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 4px;
+  border-top: 2px solid var(--pku-red);
+  border-bottom: 1px solid var(--pku-red);
+}
+
+/* 二级标题：Journal Articles / Other Publications */
 h2 {
-  font-size: 1.42rem;
-  margin-top: 2.4rem;
-  margin-bottom: 1rem;
-  padding-bottom: 0.35rem;
-  border-bottom: 2px solid var(--pku-red);
-  color: var(--text-main);
+  font-family: Georgia, "Noto Serif SC", serif;
+  font-weight: 700;
+  font-size: 1.35rem;
+  margin: 2.8rem 0 1.2rem 0;
+  padding-bottom: 0.4rem;
+  border-bottom: 1.5px solid var(--pku-red);
+  color: var(--pku-ink);
   letter-spacing: 0.01em;
 }
 
-/* subsection titles */
+/* 三级标题：English / Chinese 等子分类 —— 改成小字号"小节签" */
 h3 {
-  display: inline-block;
-  font-size: 1.02rem;
-  margin-top: 1.5rem;
-  margin-bottom: 0.85rem;
-  padding: 0.2rem 0 0.2rem 0.7rem;
-  border-left: 5px solid var(--pku-red);
-  color: var(--text-main);
-  background: linear-gradient(to right, rgba(140,29,64,0.05), rgba(140,29,64,0));
+  display: block;
+  font-family: Georgia, "Noto Serif SC", serif;
+  font-weight: 600;
+  font-size: 0.82rem;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  color: var(--pku-red);
+  margin: 2rem 0 1rem 0;
+  padding: 0;
+  background: none;
+  border: none;
+  position: relative;
+  padding-left: 1.2rem;
 }
 
-/* text */
+h3::before {
+  /* 一个极小的方形印章色块，含蓄的北大红点缀 */
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 0.55rem;
+  height: 0.55rem;
+  background: var(--pku-red);
+}
+
+/* ==========================================================
+   6. 段落
+   ========================================================== */
 p {
-  line-height: 1.8;
-  margin-bottom: 1rem;
-}
-
-/* lists */
-main ul,
-main ol,
-article ul,
-article ol,
-.wrapper ul,
-.wrapper ol {
-  margin-top: 0.7rem;
-  margin-bottom: 1.5rem;
-  padding-left: 1.4rem;
-}
-
-/* bibliography-like entries */
-main li,
-article li,
-.wrapper li {
-  margin-bottom: 1.05rem;
   line-height: 1.82;
-  padding-left: 0.4rem;
+  margin-bottom: 1.1rem;
+  color: var(--pku-ink);
 }
 
-/* hanging-indent effect for long entries */
+/* ==========================================================
+   7. 文献列表 —— 核心改动
+   ========================================================== */
+
+main ul,
+article ul,
+.wrapper ul {
+  list-style: none;              /* 去掉默认圆点 */
+  padding-left: 0;
+  margin: 1rem 0 2rem 0;
+  counter-reset: pub-counter;    /* 启用自动编号 */
+}
+
 main li,
 article li,
 .wrapper li {
-  text-indent: -0.4rem;
+  position: relative;
+  counter-increment: pub-counter;
+  padding: 0.4rem 0 0.4rem 2.6rem;   /* 左侧让出空间给编号 */
+  margin-bottom: 0.9rem;
+  line-height: 1.78;
+  text-indent: 0;                     /* 移除旧的负缩进 hack */
+  border-bottom: 1px dashed transparent;
+  transition: border-color 0.25s ease, background 0.25s ease;
 }
 
-/* emphasize author names */
+/* 文献编号：灰色小号数字，置于左侧空白 */
+main li::before,
+article li::before,
+.wrapper li::before {
+  content: counter(pub-counter);
+  position: absolute;
+  left: 0;
+  top: 0.55rem;
+  width: 2rem;
+  text-align: right;
+  font-family: Georgia, serif;
+  font-size: 0.82rem;
+  color: var(--pku-stone);
+  font-variant-numeric: tabular-nums;
+}
+
+/* 悬停：底部浮现一条虚线，轻微的纸面反馈 */
+main li:hover,
+article li:hover,
+.wrapper li:hover {
+  border-bottom-color: var(--line-mid);
+}
+
+/* 作者名强调 */
 strong {
   font-weight: 700;
-  color: var(--text-main);
+  color: var(--pku-ink);
+  letter-spacing: 0.005em;
 }
 
-/* corresponding author star */
+/* 通讯作者星号 */
 sup {
   font-size: 0.72em;
   vertical-align: super;
   line-height: 0;
+  color: var(--pku-red);          /* 给小星号一点颜色，强化对应关系 */
 }
 
-/* journal/article links */
+/* ==========================================================
+   8. 文献链接 —— 彻底重做：不再是胶囊按钮
+   ========================================================== */
 main li a,
 article li a,
 .wrapper li a {
-  display: inline-block;
-  margin-left: 0.4rem;
-  padding: 0.08rem 0.5rem;
-  font-size: 0.79rem;
-  line-height: 1.2;
-  border: 1px solid var(--line-strong);
-  border-radius: 999px;
+  /* 清掉旧的 pill 样式 */
+  display: inline;
+  margin-left: 0;
+  padding: 0;
+  border: none;
+  border-radius: 0;
+  background: none;
+  box-shadow: none;
+  transform: none;
+
+  font-family: Georgia, serif;
+  font-size: 0.88rem;
+  font-style: italic;
   color: var(--pku-red);
-  background: #fff;
-  vertical-align: baseline;
-  box-shadow: 0 0 0 0 rgba(0,0,0,0);
+  border-bottom: 1px solid var(--line-mid);
+  transition: border-color 0.2s ease, color 0.2s ease;
 }
 
 main li a:hover,
 article li a:hover,
 .wrapper li a:hover {
-  background: var(--bg-soft);
-  border-color: var(--pku-red);
-  transform: translateY(-1px);
+  color: var(--pku-red-deep);
+  border-bottom-color: var(--pku-red);
+  background: none;
+  transform: none;
 }
 
-/* note / award blocks */
+/* ==========================================================
+   9. 尾注（sub 块，如 "* indicates corresponding author"）
+   ========================================================== */
 sub {
   display: block;
-  margin-top: 0.35rem;
-  margin-bottom: 0.8rem;
-  margin-left: 0.2rem;
-  padding: 0.45rem 0.7rem;
-  color: var(--text-soft);
+  margin: 2rem 0 1rem 0;
+  padding: 0.6rem 1rem;
+  color: var(--pku-stone);
   font-size: 0.82rem;
+  font-style: italic;
   line-height: 1.6;
-  background: var(--bg-note);
-  border-left: 3px solid var(--pku-red);
-  border-radius: 4px;
+  background: var(--bg-card);
+  border-left: 2px solid var(--pku-red);
+  vertical-align: baseline;
 }
 
-/* horizontal rules */
+/* ==========================================================
+   10. 分隔线：瓦当风格的中轴小方块
+   ========================================================== */
 hr {
   border: none;
-  border-top: 1px solid var(--line-soft);
-  margin: 2rem 0;
+  height: 1.5rem;
+  margin: 2.5rem 0;
+  position: relative;
+  background: none;
 }
 
-/* blockquotes */
+hr::before {
+  content: "";
+  position: absolute;
+  left: 0; right: 0; top: 50%;
+  height: 1px;
+  background: var(--line-mid);
+}
+
+hr::after {
+  /* 中央一颗北大红小方块，极其克制的视觉锚点 */
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 8px;
+  height: 8px;
+  background: var(--pku-red);
+  transform: translate(-50%, -50%) rotate(45deg);
+}
+
+/* ==========================================================
+   11. 引用块、表格、图片
+   ========================================================== */
 blockquote {
-  margin: 1rem 0;
-  padding-left: 1rem;
-  border-left: 3px solid var(--line-soft);
-  color: var(--text-soft);
+  margin: 1.2rem 0;
+  padding: 0.4rem 1.2rem;
+  border-left: 3px solid var(--pku-red);
+  background: var(--bg-card);
+  color: var(--pku-slate);
+  font-style: italic;
 }
 
-/* tables */
 table {
   width: 100%;
   border-collapse: collapse;
-  margin: 1rem 0 1.5rem 0;
+  margin: 1.2rem 0 1.8rem 0;
+  font-size: 0.95rem;
 }
 
-th,
-td {
-  padding: 0.65rem 0.75rem;
+th, td {
+  padding: 0.7rem 0.8rem;
   border-bottom: 1px solid var(--line-soft);
   text-align: left;
 }
 
-th {
-  color: var(--text-main);
+thead th {
+  border-bottom: 2px solid var(--pku-red);
+  color: var(--pku-ink);
+  font-weight: 700;
 }
 
-/* images */
 img {
   max-width: 100%;
   height: auto;
+  border-radius: 2px;
 }
 
-/* softer spacing for first element */
 .page-content > *:first-child {
   margin-top: 0;
 }
 
-/* mobile */
+/* ==========================================================
+   12. 响应式：手机端
+   ========================================================== */
 @media (max-width: 768px) {
-  h1 {
-    font-size: 1.6rem;
+  body {
+    font-size: 15.5px;
+    line-height: 1.72;
   }
 
-  h2 {
-    font-size: 1.25rem;
+  h1 { font-size: 1.55rem; }
+  h2 { font-size: 1.18rem; margin-top: 2rem; }
+  h3 { font-size: 0.78rem; }
+
+  main li,
+  article li,
+  .wrapper li {
+    padding-left: 2.1rem;
   }
 
-  h3 {
-    font-size: 0.98rem;
-  }
-
-  main ul,
-  article ul,
-  .wrapper ul {
-    padding-left: 1rem;
+  main li::before,
+  article li::before,
+  .wrapper li::before {
+    width: 1.6rem;
+    font-size: 0.76rem;
   }
 
   main li a,
   article li a,
   .wrapper li a {
-    margin-left: 0.25rem;
-    padding: 0.06rem 0.4rem;
-    font-size: 0.75rem;
-  }
-
-  sub {
-    padding: 0.4rem 0.6rem;
+    font-size: 0.82rem;
   }
 }
