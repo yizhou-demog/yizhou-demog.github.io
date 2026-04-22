@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title }} | Yi Zhou</title>
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="nav-container">
+      <a class="site-title" href="/">Yi Zhou</a>
+      <nav class="site-nav">
+        <a href="/" class="nav-link">Home</a>
+        <a href="/publications/" class="nav-link">Publications</a>
+        <a href="/research/" class="nav-link">Research</a>
+        <a href="/teaching/" class="nav-link">Teaching</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="page-content">
+    {{ content }}
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrapper">
+      <p style="font-size: 0.8rem; color: #888; text-align: center; margin-top: 4rem;">
+        &copy; {{ "now" | date: "%Y" }} Yi Zhou. Peking University.
+      </p>
+    </div>
+  </footer>
+
+</body>
+</html>
