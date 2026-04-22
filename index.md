@@ -3,13 +3,12 @@ layout: homepage
 ---
 
 ## About Me
-
-I am a tenured associate professor at the Guanghua School of Management and the Center for Social Research at Peking University.
+I am a tenured associate professor at the [Center for Social Research](https://csr.pku.edu.cn/) and the [Guanghua School of Management](https://www.gsm.pku.edu.cn), Peking University.
 
 ## Education
 
 - **University of California, Berkeley**  
-  Ph.D. in Demography (Population Economics Track), 2017  
+  Ph.D. in Demography, 2017  
   Advisors: Ronald Lee, Alan Auerbach, Jennifer Johnson-Hanks, and Charles I. Jones  
   M.A. in Demography, 2012
 
@@ -18,7 +17,7 @@ I am a tenured associate professor at the Guanghua School of Management and the 
 
 - **Peking University**  
   M.A. in Economics, National School of Development, 2011  
-  B.A. in Accounting, Guanghua School of Management, 2006
+  B.A. in Management (Accounting Track), Guanghua School of Management, 2006
 
 ## Explore More
 
