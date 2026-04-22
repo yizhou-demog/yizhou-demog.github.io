@@ -6,7 +6,6 @@ permalink: /publications/
 
 ## Journal Articles
 
-<br>
 
 ### English
 
