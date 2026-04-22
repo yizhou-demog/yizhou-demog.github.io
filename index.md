@@ -7,14 +7,11 @@ I am an associate professor (tenured) at the [Center for Social Research](https:
 
 ## Academic Positions
 
-- **Peking University, Guanghua School of Management, Center for Social Research**  
-  Associate Professor (tenured), Aug. 2023–Present
+**Guanghua School of Management & Center for Social Research, Peking University**
 
-- **Peking University, Guanghua School of Management, Center for Social Research**  
-  Assistant Professor, Jul. 2017–Jul. 2023
+- **Associate Professor (tenured)**, Aug. 2023–Present
+- **Assistant Professor**, Jul. 2017–Jul. 2023
 
-- **Peking University, China Center for Economic Research**  
-  staff, Jul. 2006–Aug. 2008
 
 ## Education
 
