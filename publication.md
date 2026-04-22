@@ -4,11 +4,9 @@ title: Publications
 permalink: /publications/
 ---
 
-<div class="publication-list">
-
 ## Journal Articles
 
-
+<br>
 ### English
 
 - Zhang, Na, Ni Yan, Song Han, Canxu Zeng, <strong>Yi Zhou</strong><sup>&#42;</sup>, and Zhengxu Zhou<sup>&#42;</sup>. 2026. “Understanding the Impact of Rural In-migrants on Locals’ Architectural Tastes: Cultural Assimilation or Identity Reinforcement.” *Journal of Rural Studies* 122: 103941. [Link](https://www.sciencedirect.com/science/article/abs/pii/S0743016725003821)
@@ -67,7 +65,7 @@ permalink: /publications/
 
 - Huang, Wei, and <strong>Yi Zhou</strong><sup>&#42;</sup>. 2013. “Effects of Education on Cognition at Older Ages: Evidence from China’s Great Famine.” *Social Science & Medicine* 98: 54–62. [Link](https://doi.org/10.1016/j.socscimed.2013.09.006)
 
-
+<br>
 ### Chinese
 
 - 刘欣、李颀<sup>&#42;</sup>、<strong>周羿</strong>、高廷明：《当前中国的父母受教育程度、家庭权力结构与子女姓氏》，《青年研究》，2026年第2期，第134—154页。  
@@ -120,7 +118,7 @@ permalink: /publications/
   *English title:* “Population Structure and International Trade.”
 
   <sub>第十八届“安子介国际贸易研究奖”优秀论文三等奖<br>《经济研究》编辑部推荐收录于《中国经济学2013》一书</sub>
-
+<br>
 
 ## Other Publications
 
@@ -136,5 +134,5 @@ permalink: /publications/
 
 - Chen, Qin, Duo Xu, and <strong>Yi Zhou</strong>. 2019. “AI’s Effects on Economic Growth in Aging Society: Induced Innovation and Supplemental Substitution.” *China Economist* 14 (5): 54–66.
 
+<br>
 <sub>&#42; indicates corresponding author.</sub>
-</div>
