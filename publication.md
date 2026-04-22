@@ -6,8 +6,6 @@ permalink: /publications/
 
 ## Journal Articles
 
-<br>
-
 ### English
 
 - Zhang, Na, Ni Yan, Song Han, Canxu Zeng, <strong>Yi Zhou</strong><sup>&#42;</sup>, and Zhengxu Zhou<sup>&#42;</sup>. 2026. “Understanding the Impact of Rural In-migrants on Locals’ Architectural Tastes: Cultural Assimilation or Identity Reinforcement.” *Journal of Rural Studies* 122: 103941. [Link](https://www.sciencedirect.com/science/article/abs/pii/S0743016725003821)
@@ -16,7 +14,7 @@ permalink: /publications/
 
 - Huang, Wei, Yinghao Pan<sup>&#42;</sup>, and <strong>Yi Zhou</strong><sup>&#42;</sup>. 2025. “One-Child Policy, Marriage Distortion, and Welfare Loss.” *Review of Economics and Statistics* 107 (5): 1341–55. [Link](https://direct.mit.edu/rest/article/107/5/1341/116188/One-Child-Policy-Marriage-Distortion-and-Welfare)
 
-- Wang, Yuyang, Xu Wei, Xiao Xiao<sup>&#42;</sup>, and <strong>Yi Zhou</strong>. 2025. “Overconfident and Underconcerned: Behavioral Biases in Redistribution Attitudes.” *China Economic Quarterly International* 5 (2): 120–31. [Link](https://scholar.pku.edu.cn/yizhou/publications/overconfident-and-underconcerned-behavioral-biases-redistribution-attitudes)
+- Wang, Yuyan, Xu Wei, Xiao Xiao<sup>&#42;</sup>, and <strong>Yi Zhou</strong>. 2025. “Overconfident and Underconcerned: Behavioral Biases in Redistribution Attitudes.” *China Economic Quarterly International* 5 (2): 120–31. [Link](https://scholar.pku.edu.cn/yizhou/publications/overconfident-and-underconcerned-behavioral-biases-redistribution-attitudes)
 
 - Huang, Wei, Yiping Wang, Hantao Wu, and <strong>Yi Zhou</strong><sup>&#42;</sup>. 2025. “The Motherhood Penalty and Low Fertility in China: A Pseudo-Event Study.” *Journal of Population Economics* 38: 28. [Link](https://link.springer.com/article/10.1007/s00148-025-01078-3)
 
@@ -43,7 +41,7 @@ permalink: /publications/
 - Xie, Liyang, Xu Wei, and <strong>Yi Zhou</strong><sup>&#42;</sup>. 2021. “Spillover Effects of Adult Children’s Schooling on Parents’ Smoking Cessation: Evidence from China’s Compulsory Schooling Reform.” *Journal of Epidemiology and Community Health* 75 (12): 1141–47. [Link](https://jech.bmj.com/content/75/12/1141)
 
 - Barnett, William P.<sup>&#42;</sup>, Xiao Xiao, and <strong>Yi Zhou</strong><sup>&#42;</sup>. 2021. “Competitive Exclusion versus Mimetic Isomorphism: An Identified Empirical Test.” *Sociological Science* 8: 211–29. [Link](https://sociologicalscience.com/articles-v8-11-211/)
-  
+
 - Jia, Ziyu, Shijia Xu, Zican Zhang, Zhengyu Cheng, Haoqing Han, Haoxiang Xu, Mingtian Wang, Hong Zhang, <strong>Yi Zhou</strong><sup>&#42;</sup>, and Zhengxu Zhou<sup>&#42;</sup>. 2021. “Association between Mental Health and Community Support in Lockdown Communities during the COVID-19 Pandemic: Evidence from Rural China.” *Journal of Rural Studies* 82: 87–97. [Link](https://doi.org/10.1016/j.jrurstud.2021.01.011)
 
 - Li, Lixing, Xiaoyu Wu<sup>&#42;</sup>, and <strong>Yi Zhou</strong>. 2021. “Intra-household Bargaining Power, Surname Inheritance, and Human Capital Accumulation.” *Journal of Population Economics* 34 (1): 35–61. [Link](https://link.springer.com/article/10.1007/s00148-020-00791-1)
@@ -52,7 +50,7 @@ permalink: /publications/
 
 - Zhao, Xin, <strong>Yi Zhou</strong><sup>&#42;</sup>, Huaqing Tan, and Haoxiang Lin. 2018. “Spillover Effects of Children’s Political Status on Elderly Parents’ Health in China.” *Journal of Epidemiology and Community Health* 72 (11): 973–81. [Link](https://jech.bmj.com/content/72/11/973)
 
-   <sub>Editor’s Choice paper.</sub>
+  <sub>Editor’s Choice paper.</sub>
 
 - Tan, Huaqing, Chaoran Guo, and <strong>Yi Zhou</strong><sup>&#42;</sup>. 2017. “Cadre Children and Cognitive Function of Parents in China: The Value of Political Connection.” *Chinese Sociological Review* 49 (4): 382–406. [Link](https://doi.org/10.1080/21620555.2017.1357894)
 
@@ -65,8 +63,6 @@ permalink: /publications/
 - Wei, Xu, Xiao Xiao<sup>&#42;</sup>, and <strong>Yi Zhou</strong>. 2015. “Investor Heterogeneity, Auditor Choice, and Information Signaling.” *Auditing: A Journal of Practice & Theory* 34 (3): 113–38. [Link](https://publications.aaahq.org/ajpt/article-abstract/34/3/113/360/Investor-Heterogeneity-Auditor-Choice-and)
 
 - Huang, Wei, and <strong>Yi Zhou</strong><sup>&#42;</sup>. 2013. “Effects of Education on Cognition at Older Ages: Evidence from China’s Great Famine.” *Social Science & Medicine* 98: 54–62. [Link](https://doi.org/10.1016/j.socscimed.2013.09.006)
-
-<br>
 
 ### Chinese
 
@@ -121,8 +117,6 @@ permalink: /publications/
 
   <sub>第十八届“安子介国际贸易研究奖”优秀论文三等奖<br>《经济研究》编辑部推荐收录于《中国经济学2013》一书</sub>
 
-<br>
-
 ## Other Publications
 
 - <strong>周羿</strong>：《人口学与经济学视角下的老龄化与中国经济》，载《中国式现代化的发展逻辑》，北京：机械工业出版社，2025年，第203—207页。
@@ -136,7 +130,5 @@ permalink: /publications/
 - 陈沁、张冰莹、<strong>周羿</strong>：《第五章：婚姻与家庭》，载《中国民生发展报告：2018–2019》，北京：社会科学文献出版社，2019年，第80—100页。
 
 - Chen, Qin, Duo Xu, and <strong>Yi Zhou</strong>. 2019. “AI’s Effects on Economic Growth in Aging Society: Induced Innovation and Supplemental Substitution.” *China Economist* 14 (5): 54–66.
-
-<br>
 
 <sub>&#42; indicates corresponding author.</sub>
