@@ -3,75 +3,202 @@
 
 @import "{{ site.theme }}";
 
-/* ==========================================================
-   1. 字体：Georgia（北大官方英文标准字体）+ 思源宋体
-   ========================================================== */
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;500;600;700&display=swap');
-
-/* ==========================================================
-   2. 色彩系统：真正的北大红 + 燕园辅色
-   ========================================================== */
 :root {
-  /* 主色：官方北大红 CMYK(0,100,100,45) → RGB(140,0,0) */
-  --pku-red: #8C0000;
-  --pku-red-deep: #6B0000;      /* 用于 hover */
-  --pku-red-soft: #A83838;      /* 用于次级强调 */
+  /* 经典的北大红及衍生色 */
+  --pku-red: #8C0014; 
+  --pku-red-light: rgba(140, 0, 20, 0.06);
+  --pku-red-hover: #6b000f;
+  
+  /* 灰度与文本色：保持克制，避免纯黑 */
+  --text-main: #2b2b2b;
+  --text-soft: #555555;
+  --text-muted: #888888;
+  --line-soft: #eaeaea;
+  --line-strong: #cccccc;
+  
+  /* 纸质质感的背景色 */
+  --bg-page: #fcfbf9; 
+  --bg-note: #f7f5f0;
 
-  /* 辅色：取自燕园——未名湖湖水色、琉璃黄（极少量使用） */
-  --pku-ink:    #1A1A1A;        /* 主文字，比纯黑柔和 */
-  --pku-slate:  #3E3A36;        /* 次级文字 */
-  --pku-stone:  #6B655E;        /* 元信息、备注 */
-  --pku-gold:   #B8860B;        /* 金色点缀，留给极少量场景 */
-
-  /* 线条与底色：淡化到接近宣纸 */
-  --line-soft:   #EAE4DB;
-  --line-mid:    #D4CCBF;
-  --bg-paper:    #FBF8F3;       /* 页面主底，微米白 */
-  --bg-card:     #F6F1E8;       /* 注释、脚注等卡片底 */
+  /* 字体设定：标题衬线（庄重），正文无衬线（清晰） */
+  --font-serif: "Noto Serif SC", "Source Han Serif SC", Georgia, "Times New Roman", serif;
+  --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 }
 
-/* ==========================================================
-   3. 全局基础：字体栈与基础排版
-   ========================================================== */
+/* Base */
 body {
-  font-family: Georgia,
-               "Noto Serif SC",
-               "Source Han Serif SC",
-               "Songti SC",
-               "宋体",
-               serif;
-  color: var(--pku-ink);
-  background-color: var(--bg-paper);
-  font-size: 16.5px;
-  line-height: 1.78;
+  color: var(--text-main);
+  background-color: var(--bg-page);
+  font-family: var(--font-sans);
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  line-height: 1.7;
 }
 
-/* 中文字符单独指定宋体，保证中英混排观感统一 */
-:lang(zh),
-.zh {
-  font-family: "Noto Serif SC", "Source Han Serif SC", "Songti SC", "宋体", serif;
+.wrapper, .container, main, article {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 20px;
 }
 
-/* 阅读宽度：学术文字不宜过宽 */
-.wrapper,
-.container,
-main,
-article {
-  max-width: 880px;
-}
-
-/* ==========================================================
-   4. 链接：低调的暗红下划线，彻底移除胶囊按钮
-   ========================================================== */
+/* Links */
 a {
   color: var(--pku-red);
   text-decoration: none;
-  border-bottom: 1px solid transparent;
-  transition: border-color 0.2s ease, color 0.2s ease;
+  transition: all 0.2s ease-in-out;
+}
+a:hover {
+  color: var(--pku-red-hover);
+  text-decoration: underline;
+  text-underline-offset: 4px;
 }
 
+/* Typography for Headings */
+h1, h2, h3, h4 {
+  font-family: var(--font-serif);
+  color: #111; /* 标题使用更深的颜色以压住阵脚 */
+}
+
+/* Page Title */
+h1 {
+  font-size: 2.2rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+  padding-bottom: 0.8rem;
+  border-bottom: 1px solid var(--line-strong);
+  position: relative;
+}
+/* 标题底部的北大红短线点缀 */
+h1::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  width: 60px;
+  height: 3px;
+  background-color: var(--pku-red);
+}
+
+/* Section Title */
+h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-top: 3.5rem;
+  margin-bottom: 1.5rem;
+  padding-bottom: 0.4rem;
+  border-bottom: 1px solid var(--line-soft);
+}
+
+/* Subsection Title */
+h3 {
+  font-size: 1.15rem;
+  font-weight: 500;
+  margin-top: 2.5rem;
+  margin-bottom: 1.2rem;
+  padding: 0.3rem 0.8rem;
+  border-left: 4px solid var(--pku-red);
+  background: var(--pku-red-light);
+  border-radius: 0 4px 4px 0;
+  display: inline-block;
+  color: var(--pku-red);
+}
+
+/* Publication Lists */
+main ul, article ul, .wrapper ul {
+  list-style: none; /* 移除杂乱的默认圆点 */
+  padding-left: 0;
+  margin-top: 1rem;
+}
+
+main li, article li, .wrapper li {
+  position: relative;
+  padding-left: 1.5rem;
+  margin-bottom: 1.5rem;
+  line-height: 1.75;
+  color: var(--text-main);
+}
+
+/* 自定义极简列表引导符 */
+main li::before, article li::before, .wrapper li::before {
+  content: "▪";
+  color: var(--pku-red);
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-size: 1.2rem;
+  line-height: 1.4;
+  opacity: 0.8;
+}
+
+/* 强调你的名字并自动赋予北大红 */
+strong {
+  font-weight: 600;
+  color: var(--pku-red);
+}
+
+/* 期刊名称斜体微调 */
+em {
+  font-style: italic;
+  color: var(--text-main);
+  font-weight: 500;
+}
+
+/* External Link Buttons for Papers */
+main li a, article li a, .wrapper li a {
+  display: inline-block;
+  margin-left: 0.6rem;
+  padding: 0.1rem 0.6rem;
+  font-size: 0.75rem;
+  font-family: var(--font-sans);
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  border: 1px solid var(--line-strong);
+  border-radius: 4px; /* 微圆角，不过于圆滑 */
+  color: var(--text-soft);
+  background: transparent;
+  transition: all 0.2s ease;
+  text-decoration: none;
+  vertical-align: middle;
+}
+
+main li a:hover, article li a:hover, .wrapper li a:hover {
+  background: var(--pku-red);
+  border-color: var(--pku-red);
+  color: #fff;
+  transform: translateY(-1px);
+  box-shadow: 0 2px 6px rgba(140, 0, 20, 0.2);
+}
+
+/* Note / Footer Text */
+sub {
+  display: block;
+  margin-top: 2rem;
+  padding: 0.8rem 1rem;
+  color: var(--text-soft);
+  font-size: 0.85rem;
+  background: var(--bg-note);
+  border-radius: 4px;
+  font-family: var(--font-serif);
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+  h1 { font-size: 1.8rem; }
+  h2 { font-size: 1.35rem; }
+  h3 { font-size: 1.05rem; }
+  
+  main li, article li, .wrapper li {
+    padding-left: 1.2rem;
+    margin-bottom: 1.2rem;
+  }
+  
+  main li a, article li a, .wrapper li a {
+    margin-top: 0.3rem;
+    margin-left: 0;
+    display: block; /* 手机端链接换行显示更清晰 */
+    width: fit-content;
+  }
+}
 a:hover {
   color: var(--pku-red-deep);
   border-bottom-color: var(--pku-red);
