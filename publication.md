@@ -135,3 +135,4 @@ permalink: /publications/
 - Chen, Qin, Duo Xu, and <strong>Yi Zhou</strong>. 2019. “AI’s Effects on Economic Growth in Aging Society: Induced Innovation and Supplemental Substitution.” *China Economist* 14 (5): 54–66.
 
 <sub>&#42; indicates corresponding author.</sub>
+</div>
