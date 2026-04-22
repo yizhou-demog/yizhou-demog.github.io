@@ -24,14 +24,15 @@ I am a tenured associate professor at the Guanghua School of Management and the 
 
 - [Publications](/publications/)
 - [Research](/research/)
+- [Teaching](/teaching/)
 
 
 ## Research Interests
 
-- **Economic Demography**
-- **Formal Demography**
-- **Family, Aging, and Health**
-- **Inequality and Social Change in China**
+- Economic Demography
+- Formal Demography
+- Family, Aging, and Health
+- Inequality and Social Change in China
   
 ## Selected Publications
 
