@@ -9,8 +9,8 @@ permalink: /teaching/
 - **Data Analysis and Statistical Decision-Making**, MBA/MMH Dual Degree Program, Guanghua School of Management, Peking University, Fall 2022–Fall 2025.
 - **Data Analysis and Statistical Decision-Making**, GMBA Program, Guanghua School of Management, Peking University, Fall 2022–Fall 2025.
 - **Social Networks**, Graduate Course, Guanghua School of Management, Peking University, 2020–2022, Spring 2024.
-- **Population Economics**, Undergraduate Course, Guanghua School of Management, Peking University, Spring 2020–Spring 2023, Spring 2025.
-- **Economic Demography: A Chinese Perspective**, Master’s Course, Yenching Academy, Peking University, 2019–2022, 2024–2025.
+- **Introduction to Economic Demography**, Undergraduate Course, Guanghua School of Management, Peking University, Spring 2020–Spring 2023, Spring 2025.
+- **Economic Demography: A Chinese Perspective**, Master’s Course, Yenching Academy, Peking University, Spring 2019– Spring 2022, Spring 2024– Spring 2025.
 
 ## Students Supervised
 
