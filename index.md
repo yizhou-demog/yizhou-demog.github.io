@@ -14,7 +14,7 @@ I am a tenured associate professor at the [Center for Social Research](https://c
   Assistant Professor and Research Fellow, Jul. 2017–Jul. 2023
 
 - **Peking University, China Center for Economic Research**  
-  Secretary of the Youth League Committee, Jul. 2006–Aug. 2008
+  staff, Jul. 2006–Aug. 2008
 
 ## Education
 
