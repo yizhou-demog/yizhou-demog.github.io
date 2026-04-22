@@ -3,7 +3,7 @@ layout: homepage
 ---
 
 ## About Me
-I am a tenured associate professor at the [Center for Social Research](https://csr.pku.edu.cn/) and the [Guanghua School of Management](https://www.gsm.pku.edu.cn), Peking University.
+I am an associate professor (tenured) at the [Center for Social Research](https://csr.pku.edu.cn/) and the [Guanghua School of Management](https://www.gsm.pku.edu.cn), Peking University.
 
 ## Academic Positions
 
@@ -29,13 +29,6 @@ I am a tenured associate professor at the [Center for Social Research](https://c
 - **Peking University**  
   M.A. in Economics, National School of Development, 2011  
   B.A. in Management (Accounting Track), Guanghua School of Management, 2006
-
-## Explore More
-
-- [Publications](/publications/)
-- [Research](/research/)
-- [Teaching](/teaching/)
-
 
 ## Research Interests
 
