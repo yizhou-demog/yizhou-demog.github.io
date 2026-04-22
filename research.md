@@ -9,16 +9,18 @@ permalink: /research/
 - Liu, Wen, James Raymo, and <strong>Yi Zhou</strong>. “Change in Marital Satisfaction during the COVID-19 Pandemic in China: The Roles of Financial Stress and Housework Burden.” Revised and resubmitted, *Demographic Research*.
 - Gao, Tingming, Xiao Xiao, and <strong>Yi Zhou</strong>. “People Dislike Inflation Only If They Understand It: How Financial Literacy Shapes Money Illusion.” Revised and resubmitted, *Journal of Behavioral and Experimental Economics*.
 - Yuan, Luoqi, and <strong>Yi Zhou</strong>. “Watching the Games, Building Trust? How the Olympics Temporarily Improve Chinese Attitudes toward Americans.” Revised and resubmitted, *China: An International Journal*.
-- Gao, Ming, Qingping Zhang, and <strong>Yi Zhou</strong>. “How Lives Change When Factories Arrive.”
-- Gao, Ming, Qingping Zhang, and <strong>Yi Zhou</strong>. “Social Ties and Collaborated Innovations.”
-- Ding, Xiangyuan, Wei Huang, Yuqi Ta, and <strong>Yi Zhou</strong>. “Beyond Money: Time Costs as a Determinant of Healthcare Utilization.”
+- Lei, Zihui, Xiao Xiao, and <strong>Yi Zhou</strong>."Can Education Travel Upward? Adult Children's Schooling and Parents' Financial Market Participation." Under review. [Link](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6461758)
+- Yuan, Luoqi, Wei Huang, Xiaoyin Ma, Xiao Xiao, and  <strong>Yi Zhou</strong>. "Financial Literacy and Financial Policy Preferences: Evidence from Small Business Entrepreneurs in China." Under review.
+- Gao, Ming, Qingping Zhang, and <strong>Yi Zhou</strong>. “How Lives Change When Factories Arrive.” Under review.
+- Cai, Weicheng, Lang Luo, and <strong>Yi Zhou</strong>. "When States Act, Do Foreign Publics Respond? A Natural Experiment from U.S.-China Relations." Under review.
+- Kang, Le, Di Wang, Xu Wei, Xiaoyang Ye, and <strong>Yi Zhou</strong>. “The Option Value of Later Specialization: Evidence from the Meta Major Reform in China’s College Education.” Under review. [Link](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5273318)
+- Zhang, Kexing, Yuxin Tang, and <strong>Yi Zhou</strong>. "Unequal Summers: Gendered Family Processes and Learning Loss in China." Under review.
+- Gao, Tingming, Yunnan Guo, Le Kang, and <strong>Yi Zhou</strong>. "Engineering Gender Segregation in China: Interactions Between Individual, Family, and Cultural Mechanisms." Under review.
 - Jiang, Xu, Yizhou Liu, Xu Wei, Xiao Xiao, and <strong>Yi Zhou</strong>. “Ambiguity, Price Informativeness, and Disclosure Quality.”
-- Yuan, Luoqi, and <strong>Yi Zhou</strong>. “Promoting Peace through Sport: The Olympic Effects on Sino-American Trust.”
-- Gao, Tingming, Zheqin Ma, Yi Zhang, and <strong>Yi Zhou</strong>. “Family Disruption and Mental Health: How Offspring’s Divorce Affects Elderly Parents in China.”
-- Kang, Le, Di Wang, Xu Wei, Xiaoyang Ye, and <strong>Yi Zhou</strong>. “The Option Value of Later Specialization: Evidence from the Meta Major Reform in China’s College Education.”
+- Wei, Xu, Xiao Xiao, <strong>Yi Zhou</strong>, and Yimin Zhou. "Market Illiquidity, Fair Value Accounting, and Corporate Risk-Taking."
+- Ding, Xiangyuan, Wei Huang, Yuqi Ta, and <strong>Yi Zhou</strong>. “Beyond Money: Time Costs as a Determinant of Healthcare Utilization.”
 - Yang, Ning, Xiang Liu, Kexin Zhang, Weicheng Cai, Yiqing Xing, and <strong>Yi Zhou</strong>. “A More Integrated but More Fragile World: The Network Structure of World Politics.”
-- Wei, Xu, Xiao Xiao, and <strong>Yi Zhou</strong>. “Marking-to-Market, Capital Regulation, and Moral Hazard.”
-- Tian, Wei, Yang Yao, Miaojie Yu, and <strong>Yi Zhou</strong>. “Dependency Ratio and International Trade.”
+- Tian, Wei, Yang Yao, Miaojie Yu, and <strong>Yi Zhou</strong>. “Dependency Ratio and International Trade.” [Link](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1792564)
 
 ## Grants
 
