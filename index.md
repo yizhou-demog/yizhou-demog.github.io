@@ -17,7 +17,7 @@ I am an associate professor (tenured) at the [Center for Social Research](https:
 
 - **University of California, Berkeley**  
   Ph.D. in Demography, 2017  
-  Advisors: Ronald Lee, Alan Auerbach, Jennifer Johnson-Hanks, and Charles I. Jones  
+  Advisors: Ronald Lee (chair), Alan Auerbach, Jennifer Johnson-Hanks, and Charles I. Jones  
   M.A. in Demography, 2012
 
 - **Stanford Graduate School of Business**  
@@ -36,9 +36,9 @@ I am an associate professor (tenured) at the [Center for Social Research](https:
   
 ## Selected Publications
 
-- Huang, Wei, Yinhao Pan<sup>&#42;</sup>, and <strong>Yi Zhou</strong><sup>&#42;</sup>. 2025. “One-Child Policy, Marriage Distortion, and Welfare Loss.” *Review of Economics and Statistics* 107 (5): 1341–55. [Link](https://direct.mit.edu/rest/article/107/5/1341/116188/One-Child-Policy-Marriage-Distortion-and-Welfare).
+- Huang, Wei, Yinghao Pan<sup>&#42;</sup>, and <strong>Yi Zhou</strong><sup>&#42;</sup>. 2025. “One-Child Policy, Marriage Distortion, and Welfare Loss.” *Review of Economics and Statistics* 107 (5): 1341–55. [Link](https://direct.mit.edu/rest/article/107/5/1341/116188/One-Child-Policy-Marriage-Distortion-and-Welfare).
 
-- Huang, Wei, Yajie Wang, Hao Wu, and <strong>Yi Zhou</strong><sup>&#42;</sup>. 2025. “The Motherhood Penalty and Low Fertility in China: A Pseudo-Event Study.” *Journal of Population Economics* 38: 28. [Link](https://link.springer.com/article/10.1007/s00148-025-01078-3).
+- Huang, Wei, Yiping Wang, Hantao Wu, and <strong>Yi Zhou</strong><sup>&#42;</sup>. 2025. “The Motherhood Penalty and Low Fertility in China: A Pseudo-Event Study.” *Journal of Population Economics* 38: 28. [Link](https://link.springer.com/article/10.1007/s00148-025-01078-3).
 
 - Chen, Qin, and <strong>Yi Zhou</strong><sup>&#42;</sup>. 2021. “Whose Trade Follows the Flag? Institutional Constraints and Economic Responses to Bilateral Relations.” *Journal of Peace Research* 58 (6): 1207–23. [Link](https://journals.sagepub.com/doi/abs/10.1177/0022343321992825).
 
