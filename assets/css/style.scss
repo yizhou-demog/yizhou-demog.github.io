@@ -48,37 +48,49 @@ h3 {
 }
 
 /* page width */
-.page-content,
 .wrapper,
-.container {
+.container,
+main,
+article {
   max-width: 900px;
 }
 
-/* paragraphs */
+/* body text */
 p {
   line-height: 1.75;
   margin-bottom: 1rem;
 }
 
-/* lists */
-.page-content ul {
+/* make markdown lists cleaner across pages */
+main ul,
+main ol,
+article ul,
+article ol,
+.wrapper ul,
+.wrapper ol {
   margin-top: 0.6rem;
   margin-bottom: 1.2rem;
   padding-left: 1.2rem;
 }
 
-.page-content li {
+main li,
+article li,
+.wrapper li {
   margin-bottom: 0.95rem;
   line-height: 1.75;
 }
 
-/* improve long bibliography entries */
-.page-content li strong {
-  font-weight: 700;
+/* nicer bibliography-style spacing */
+main li + li,
+article li + li,
+.wrapper li + li {
+  margin-top: 0.2rem;
 }
 
 /* publication links as subtle pills */
-.page-content li a {
+main li a,
+article li a,
+.wrapper li a {
   display: inline-block;
   margin-left: 0.35rem;
   padding: 0.06rem 0.42rem;
@@ -92,19 +104,21 @@ p {
   vertical-align: baseline;
 }
 
-.page-content li a:hover {
+main li a:hover,
+article li a:hover,
+.wrapper li a:hover {
   background: var(--bg-soft);
   border-color: var(--pku-red);
   text-decoration: none;
 }
 
-/* emphasize author names in publication entries */
+/* emphasize author names */
 strong {
   font-weight: 700;
   color: var(--text-main);
 }
 
-/* superscript for corresponding author markers */
+/* corresponding author marker */
 sup {
   font-size: 0.72em;
   vertical-align: super;
@@ -121,7 +135,7 @@ sub {
   line-height: 1.55;
 }
 
-/* blockquotes, if needed later */
+/* blockquotes */
 blockquote {
   margin: 1rem 0;
   padding-left: 1rem;
@@ -142,30 +156,7 @@ img {
   height: auto;
 }
 
-/* tables, if any are added later */
-table {
-  width: 100%;
-  border-collapse: collapse;
-  margin: 1rem 0 1.5rem 0;
-}
-
-th,
-td {
-  padding: 0.6rem 0.75rem;
-  border-bottom: 1px solid var(--line-soft);
-  text-align: left;
-}
-
-th {
-  color: var(--text-main);
-}
-
-/* homepage and page spacing */
-.page-content > *:first-child {
-  margin-top: 0;
-}
-
-/* mobile adjustments */
+/* mobile */
 @media (max-width: 768px) {
   h2 {
     font-size: 1.25rem;
@@ -175,11 +166,15 @@ th {
     font-size: 1rem;
   }
 
-  .page-content ul {
+  main ul,
+  article ul,
+  .wrapper ul {
     padding-left: 1rem;
   }
 
-  .page-content li a {
+  main li a,
+  article li a,
+  .wrapper li a {
     margin-left: 0.25rem;
     padding: 0.05rem 0.36rem;
     font-size: 0.76rem;
