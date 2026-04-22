@@ -1,5 +1,5 @@
 # Basic Information 
-title: Yi Zhou
+title: Yi Zhou （周羿）
 position: Associate Professor (tenured)
 affiliation: Center for Social Research and Guanghua School of Management, Peking University
 email: yizhou@pku.edu.cn
@@ -14,8 +14,7 @@ canonical: https://yizhou-demog.github.io/
 # If you don't need one of them, you may delete the corresponding line.
 google_scholar: https://scholar.google.com/citations?user=UipFIycAAAAJ&hl=en
 cv_link: assets/files/Yi_Zhou_CV.pdf
-csr_pku: csr.pku.edu.cn
-weibo: https://weibo.com/u/2136911052
+work_link: csr.pku.edu.cn
 
 
 # Images (e.g., your profile picture and your website's favicon) 
@@ -23,6 +22,13 @@ weibo: https://weibo.com/u/2136911052
 avatar: ./assets/img/zhou.jpg
 favicon: ./assets/img/favicon.png
 favicon_dark: ./assets/img/favicon-dark.png
+
+header_pages:
+
+  - index.md
+  - publications.md
+  - research.md
+  - teaching.md
 
 # Footnote
 # You may use the option to disable the footnote, "Powered by Jekyll and Minimal Light theme."
