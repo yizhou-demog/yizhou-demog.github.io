@@ -16,8 +16,7 @@ permalink: /teaching/
 
 ### Ph.D. Students
 
-- **Weicheng Cai** (Cohort 2020).
-  *Placement: Assistant Research Fellow, Institute of Population and Labor Economics, Chinese Academy of Social Sciences.*
+- **Weicheng Cai** (Cohort 2020).<br>*Placement: Assistant Research Fellow, Institute of Population and Labor Economics, Chinese Academy of Social Sciences.*
 - **Zheqing Ma** (Cohort 2023).
 - **Weihui Ye** (Cohort 2023).
 - **Kexin Zhang** (Cohort 2024).
