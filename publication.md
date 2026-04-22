@@ -6,6 +6,7 @@ permalink: /publications/
 
 ## Journal Articles
 
+
 ### English
 
 - Zhang, Na, Ni Yan, Song Han, Canxu Zeng, <strong>Yi Zhou</strong><sup>&#42;</sup>, and Zhengxu Zhou<sup>&#42;</sup>. 2026. “Understanding the Impact of Rural In-migrants on Locals’ Architectural Tastes: Cultural Assimilation or Identity Reinforcement.” *Journal of Rural Studies* 122: 103941. [Link](https://www.sciencedirect.com/science/article/abs/pii/S0743016725003821)
@@ -49,13 +50,11 @@ permalink: /publications/
 - Zhao, Xintong, Hongwei Hu<sup>&#42;</sup>, <strong>Yi Zhou</strong>, and Ying Bai. 2020. “What Are the Long-Term Effects of Child Loss on Parental Health? Social Integration as Mediator.” *Comprehensive Psychiatry* 100: 152182. [Link](https://doi.org/10.1016/j.comppsych.2020.152182)
 
 - Zhao, Xin, <strong>Yi Zhou</strong><sup>&#42;</sup>, Huaqing Tan, and Haoxiang Lin. 2018. “Spillover Effects of Children’s Political Status on Elderly Parents’ Health in China.” *Journal of Epidemiology and Community Health* 72 (11): 973–81. [Link](https://jech.bmj.com/content/72/11/973)
-
   <sub>Editor’s Choice paper.</sub>
 
 - Tan, Huaqing, Chaoran Guo, and <strong>Yi Zhou</strong><sup>&#42;</sup>. 2017. “Cadre Children and Cognitive Function of Parents in China: The Value of Political Connection.” *Chinese Sociological Review* 49 (4): 382–406. [Link](https://doi.org/10.1080/21620555.2017.1357894)
 
 - Lee, Ronald, and <strong>Yi Zhou</strong><sup>&#42;</sup>. 2017. “Does Fertility or Mortality Drive Contemporary Population Aging? The Revisionist View Revisited.” *Population and Development Review* 43 (2): 285–301. [Link](https://onlinelibrary.wiley.com/doi/10.1111/padr.12062)
-
   <sub>Cited by *World Population Aging 2017 Highlights* and the UN 75th-anniversary report *Shaping the Trends of Our Time*.</sub>
 
 - Wei, Xu, Yongwei Chen, Mohan Zhou, and <strong>Yi Zhou</strong><sup>&#42;</sup>. 2016. “SOE Preference and Credit Misallocation: A Model and Some Evidence from China.” *Economics Letters* 138: 38–41. [Link](https://doi.org/10.1016/j.econlet.2015.11.026)
@@ -63,6 +62,7 @@ permalink: /publications/
 - Wei, Xu, Xiao Xiao<sup>&#42;</sup>, and <strong>Yi Zhou</strong>. 2015. “Investor Heterogeneity, Auditor Choice, and Information Signaling.” *Auditing: A Journal of Practice & Theory* 34 (3): 113–38. [Link](https://publications.aaahq.org/ajpt/article-abstract/34/3/113/360/Investor-Heterogeneity-Auditor-Choice-and)
 
 - Huang, Wei, and <strong>Yi Zhou</strong><sup>&#42;</sup>. 2013. “Effects of Education on Cognition at Older Ages: Evidence from China’s Great Famine.” *Social Science & Medicine* 98: 54–62. [Link](https://doi.org/10.1016/j.socscimed.2013.09.006)
+
 
 ### Chinese
 
@@ -80,15 +80,14 @@ permalink: /publications/
 
 - 黄炜、任昶宇、<strong>周羿</strong><sup>&#42;</sup>：《退休制度、劳动供给与收入消费动态》，《经济研究》，2023年第1期，第141—157页。  
   *English title:* “Retirement Institutions, Labor Supply, and the Dynamics of Income and Consumption.”
-
-  <sub>第五届中国劳动经济学者论坛年会优秀论文奖（2021年）; 收录《中国人口年鉴2024》</sub>
+  <sub>第五届中国劳动经济学者论坛年会优秀论文奖（2021年）</sub>
+  </sub>收录《中国人口年鉴2024》</sub>
 
 - 周伊敏、周默涵、魏旭、<strong>周羿</strong><sup>&#42;</sup>：《机遇还是挑战：宏观冲击对微观创新的影响》，《中国工业经济》，2023年第1期，第38—56页。  
   *English title:* “Opportunity or Challenge: The Impact of Macro Shocks on Micro Innovation.”
 
 - 殷戈、黄炜<sup>&#42;</sup>、<strong>周羿</strong>：《社会资本在人力资本积累中的作用：以党员家长的溢出效应为例》，《经济学报》，2022年第9卷第4期，第577—604页。  
   *English title:* “The Role of Social Capital in Human Capital Accumulation: Evidence from the Spillover Effects of Parents’ Party Membership.”
-
   <sub>2021中国产业经济研究学术年会优秀论文三等奖</sub>
 
 - 刘潇、<strong>周羿</strong><sup>&#42;</sup>、黄海：《性别比失衡与教育获得》，《经济科学》，2022年第44卷第5期，第150—163页。  
@@ -114,8 +113,9 @@ permalink: /publications/
 
 - 田巍、姚洋、余淼杰、<strong>周羿</strong>：《人口结构与国际贸易》，《经济研究》，2013年第48卷第11期，第87—99页。  
   *English title:* “Population Structure and International Trade.”
+  <sub>第十八届“安子介国际贸易研究奖”优秀论文三等奖<sub>
+  <sub>《经济研究》编辑部推荐收录于《中国经济学2013》一书</sub>
 
-  <sub>第十八届“安子介国际贸易研究奖”优秀论文三等奖；《经济研究》编辑部推荐收录于《中国经济学2013》一书</sub>
 
 ## Other Publications
 
