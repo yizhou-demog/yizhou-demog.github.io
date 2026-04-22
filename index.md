@@ -5,6 +5,17 @@ layout: homepage
 ## About Me
 I am a tenured associate professor at the [Center for Social Research](https://csr.pku.edu.cn/) and the [Guanghua School of Management](https://www.gsm.pku.edu.cn), Peking University.
 
+## Academic Positions
+
+- **Peking University, Guanghua School of Management, Center for Social Research**  
+  Tenured Associate Professor and Research Fellow, Aug. 2023–Present
+
+- **Peking University, Guanghua School of Management, Center for Social Research**  
+  Assistant Professor and Research Fellow, Jul. 2017–Jul. 2023
+
+- **Peking University, China Center for Economic Research**  
+  Secretary of the Youth League Committee, Jul. 2006–Aug. 2008
+
 ## Education
 
 - **University of California, Berkeley**  
@@ -47,9 +58,11 @@ I am a tenured associate professor at the [Center for Social Research](https://c
 
 - Huang, Wei, and <strong>Yi Zhou</strong><sup>&#42;</sup>. 2013. “Effects of Education on Cognition at Older Ages: Evidence from China’s Great Famine.” *Social Science & Medicine* 98: 54–62. [Link](https://pubmed.ncbi.nlm.nih.gov/24262707/).
 
-- 陈沁、夏昕鸣、**周羿**<sup>&#42;</sup>。2026。《人口结构变迁与中国消费转型——从微观数据到宏观趋势》。《中国人口科学》 1: 55–71。[Link](https://kns.cnki.net/kcms2/article/abstract?v=9sxxlkkbz5NtDvymExNRzCT4kTS6jMao3PKG8P7MZR9RfmzvTm2p6yTLxfrBKSsxiU706tU5vimsdais5p3zW6UCwwQMuAw_CVU3gd6TLmJBrfDvRgjG1vMNfzBcX0KPe75XEmjKC10XW1PNDwjCXE05ryq5G9v7QSG21LlBP59oOfbO-a4JrQ==&uniplatform=NZKPT&language=CHS).
+- 陈沁、夏昕鸣、<strong>周羿</strong><sup>&#42;</sup>：《人口结构变迁与中国消费转型：从微观数据到宏观趋势》，《中国人口科学》，2026年第1期，第55—71页。[Link](https://kns.cnki.net/kcms2/article/abstract?v=9sxxlkkbz5NtDvymExNRzCT4kTS6jMao3PKG8P7MZR9RfmzvTm2p6yTLxfrBKSsxiU706tU5vimsdais5p3zW6UCwwQMuAw_CVU3gd6TLmJBrfDvRgjG1vMNfzBcX0KPe75XEmjKC10XW1PNDwjCXE05ryq5G9v7QSG21LlBP59oOfbO-a4JrQ==&uniplatform=NZKPT&language=CHS). 
+  *English title:* “Population Structure Change and China’s Consumption Transformation: From Micro Data to Macro Trends.”
 
-- 黄炜、任昶宇、**周羿**<sup>&#42;</sup>。2023。《退休制度、劳动供给与收入消费动态》。《经济研究》 1: 141–57。[Link](https://kns.cnki.net/kcms2/article/abstract?v=9sxxlkkbz5O30hxAst7KIXbzjIaaLp0nMxqSBA7MzWPebrpJUVfqfNIIwgQqbAFCZ3_LgRzpUgPrT00WFnD1gwiXIayf97BpZRBOVU3dkzXUewFgpr88wbkGJr5WAhulveBrMt7YBdsycoqlcjK70kvap3DZuA5CL-PgOZ2U8A0yneeBUrVJ9w==&uniplatform=NZKPT&language=CHS).
+- 黄炜、任昶宇、<strong>周羿</strong><sup>&#42;</sup>：《退休制度、劳动供给与收入消费动态》，《经济研究》，2023年第1期，第141—157页。[Link](https://kns.cnki.net/kcms2/article/abstract?v=9sxxlkkbz5O30hxAst7KIXbzjIaaLp0nMxqSBA7MzWPebrpJUVfqfNIIwgQqbAFCZ3_LgRzpUgPrT00WFnD1gwiXIayf97BpZRBOVU3dkzXUewFgpr88wbkGJr5WAhulveBrMt7YBdsycoqlcjK70kvap3DZuA5CL-PgOZ2U8A0yneeBUrVJ9w==&uniplatform=NZKPT&language=CHS).
+  *English title:* “Retirement Institutions, Labor Supply, and the Dynamics of Income and Consumption.”
 
 <sub>* Corresponding author</sub>
 
