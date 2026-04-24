@@ -12,6 +12,7 @@ permalink: /research/
 - Lei, Zihui, Xiao Xiao, and <strong>Yi Zhou</strong>."Can Education Travel Upward? Adult Children's Schooling and Parents' Financial Market Participation." Under review. [Link](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6461758)
 - Yuan, Luoqi, Wei Huang, Xiaoyin Ma, Xiao Xiao, and  <strong>Yi Zhou</strong>. "Financial Literacy and Financial Policy Preferences: Evidence from Small Business Entrepreneurs in China." Under review.
 - Gao, Ming, Qingping Zhang, and <strong>Yi Zhou</strong>. “How Lives Change When Factories Arrive.” Under review.
+- Gao, Ming, Qingping Zhang, and <strong>Yi Zhou</strong>. “Factory Relocations, Social Ties, and Innovation.” Under review.
 - Cai, Weicheng, Lang Luo, and <strong>Yi Zhou</strong>. "When States Act, Do Foreign Publics Respond? A Natural Experiment from U.S.-China Relations." Under review.
 - Kang, Le, Di Wang, Xu Wei, Xiaoyang Ye, and <strong>Yi Zhou</strong>. “The Option Value of Later Specialization: Evidence from the Meta Major Reform in China’s College Education.” Under review. [Link](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5273318)
 - Zhang, Kexing, Yuxin Tang, and <strong>Yi Zhou</strong>. "Unequal Summers: Gendered Family Processes and Learning Loss in China." Under review.
