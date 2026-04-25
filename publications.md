@@ -33,7 +33,7 @@ permalink: /publications/
 - Lee, Ronald, and <strong>Yi Zhou</strong><sup>&#42;</sup>. 2017. “Does Fertility or Mortality Drive Contemporary Population Aging? The Revisionist View Revisited.” *Population and Development Review* 43 (2): 285–301. [Link](https://onlinelibrary.wiley.com/doi/10.1111/padr.12062)
 - Wei, Xu, Yongwei Chen, Mohan Zhou, and <strong>Yi Zhou</strong><sup>&#42;</sup>. 2016. “SOE Preference and Credit Misallocation: A Model and Some Evidence from China.” *Economics Letters* 138: 38–41. [Link](https://doi.org/10.1016/j.econlet.2015.11.023)
 - Wei, Xu, Xiao Xiao<sup>&#42;</sup>, and <strong>Yi Zhou</strong>. 2015. “Investor Heterogeneity, Auditor Choice, and Information Signaling.” *Auditing: A Journal of Practice & Theory* 34 (3): 113–38. [Link](https://publications.aaahq.org/ajpt/article/34/3/113/5963/Investor-Heterogeneity-Auditor-Choice-and)
-- Huang, Wei, and <strong>Yi Zhou</strong><sup>&#42;</sup>. 2013. “Effects of Education on Cognition at Older Ages: Evidence from China’s Great Famine.” *Social Science & Medicine* 98: 54–62. [Link](https://doi.org/10.1016/j.socscimed.2013.09.006)
+- Huang, Wei, and <strong>Yi Zhou</strong><sup>&#42;</sup>. 2013. “Effects of Education on Cognition at Older Ages: Evidence from China’s Great Famine.” *Social Science & Medicine* 98: 54–62. [Link](https://doi.org/10.1016/j.socscimed.2013.08.021)
 
 ### Chinese
 
