@@ -15,7 +15,7 @@ permalink: /research/
 - Gao, Ming, Qingping Zhang, and <strong>Yi Zhou</strong>. “Factory Relocations, Social Ties, and Innovation.” Under review.
 - Cai, Weicheng, Lang Luo, and <strong>Yi Zhou</strong>. "When States Act, Do Foreign Publics Respond? A Natural Experiment from U.S.-China Relations." Under review.
 - Kang, Le, Di Wang, Xu Wei, Xiaoyang Ye, and <strong>Yi Zhou</strong>. “The Option Value of Later Specialization: Evidence from the Meta Major Reform in China’s College Education.” Under review. [Link](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5273318)
-- Zhang, Kexing, Yuxin Tang, and <strong>Yi Zhou</strong>. "Unequal Summers: Gendered Family Processes and Learning Loss in China." Under review.
+- Zhang, Kexin, Yuxin Tang, and <strong>Yi Zhou</strong>. "Unequal Summers: Gendered Family Processes and Learning Loss in China." Under review.
 - Gao, Tingming, Yunnan Guo, Le Kang, and <strong>Yi Zhou</strong>. "Engineering Gender Segregation in China: Interactions Between Individual, Family, and Cultural Mechanisms." Under review.
 - Jiang, Xu, Yizhou Liu, Xu Wei, Xiao Xiao, and <strong>Yi Zhou</strong>. “Ambiguity, Price Informativeness, and Disclosure Quality.”
 - Gao, Timing, Yunnan Guo, Xiao Xiao, <strong>Yi Zhou</strong>, and Yimin Zhou. "Historical Openness and Household Finance: Evidence from China's Treaty Ports."
