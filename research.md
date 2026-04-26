@@ -18,8 +18,6 @@ permalink: /research/
 - Zhang, Kexin, Yuxin Tang, and <strong>Yi Zhou</strong>. "Unequal Summers: Gendered Family Processes and Learning Loss in China." Under review.
 - Gao, Tingming, Yunnan Guo, Le Kang, and <strong>Yi Zhou</strong>. "Engineering Gender Segregation in China: Interactions Between Individual, Family, and Cultural Mechanisms." Under review.
 - Jiang, Xu, Yizhou Liu, Xu Wei, Xiao Xiao, and <strong>Yi Zhou</strong>. “Ambiguity, Price Informativeness, and Disclosure Quality.”
-- Gao, Timing, Yunnan Guo, Xiao Xiao, <strong>Yi Zhou</strong>, and Yimin Zhou. "Historical Openness and Household Finance: Evidence from China's Treaty Ports."
-- Wei, Xu, Xiao Xiao, <strong>Yi Zhou</strong>, and Yimin Zhou. "Market Illiquidity, Fair Value Accounting, and Corporate Risk-Taking."
 - Ding, Xiangyuan, Wei Huang, Yuqi Ta, and <strong>Yi Zhou</strong>. “Beyond Money: Time Costs as a Determinant of Healthcare Utilization.”
 - Yang, Ning, Xiang Liu, Kexin Zhang, Weicheng Cai, Yiqing Xing, and <strong>Yi Zhou</strong>. “A More Integrated but More Fragile World: The Network Structure of World Politics.”
 - Tian, Wei, Yang Yao, Miaojie Yu, and <strong>Yi Zhou</strong>. “Dependency Ratio and International Trade.” [Link](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1792564)
