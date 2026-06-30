@@ -6,6 +6,9 @@ permalink: /research/
 
 ## Working Papers
 
+- Raymo, James, Boyan Zheng, Qiang Ren and <strong>Yi Zhou</strong>. "The Effect of School Closures during the Pandemic on Parental Labor Supply in China." Accepted, *Journal of Labor Economics*.
+- Zhang, Kexin, Yuxin Tang, and <strong>Yi Zhou</strong>. "Unequal Summers: Gendered Family Processes and Learning Loss in China." Revised and resubmitted, *Sociology of Education*.
+- Kang, Le, Di Wang, Xu Wei, Xiaoyang Ye, and <strong>Yi Zhou</strong>. “The Option Value of Later Specialization: Evidence from the Meta Major Reform in China’s College Education.” Revised and resubmitted, *Economic Development and Cultural Change*. [Link](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5273318)
 - Liu, Wen, James Raymo, and <strong>Yi Zhou</strong>. “Change in Marital Satisfaction during the COVID-19 Pandemic in China: The Roles of Financial Stress and Housework Burden.” Revised and resubmitted, *Demographic Research*.
 - Gao, Tingming, Xiao Xiao, and <strong>Yi Zhou</strong>. “People Dislike Inflation Only If They Understand It: How Financial Literacy Shapes Money Illusion.” Revised and resubmitted, *Journal of Behavioral and Experimental Economics*.
 - Yuan, Luoqi, and <strong>Yi Zhou</strong>. “Watching the Games, Building Trust? How the Olympics Temporarily Improve Chinese Attitudes toward Americans.” Revised and resubmitted, *China: An International Journal*.
@@ -14,8 +17,6 @@ permalink: /research/
 - Gao, Ming, Qingping Zhang, and <strong>Yi Zhou</strong>. “How Lives Change When Factories Arrive.” Under review.
 - Gao, Ming, Qingping Zhang, and <strong>Yi Zhou</strong>. “Factory Relocations, Social Ties, and Innovation.” Under review.
 - Cai, Weicheng, Lang Luo, and <strong>Yi Zhou</strong>. "When States Act, Do Foreign Publics Respond? A Natural Experiment from U.S.-China Relations." Under review.
-- Kang, Le, Di Wang, Xu Wei, Xiaoyang Ye, and <strong>Yi Zhou</strong>. “The Option Value of Later Specialization: Evidence from the Meta Major Reform in China’s College Education.” Under review. [Link](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5273318)
-- Zhang, Kexin, Yuxin Tang, and <strong>Yi Zhou</strong>. "Unequal Summers: Gendered Family Processes and Learning Loss in China." Under review.
 - Gao, Tingming, Yunnan Guo, Le Kang, and <strong>Yi Zhou</strong>. "Engineering Gender Segregation in China: Interactions Between Individual, Family, and Cultural Mechanisms." Under review.
 - Jiang, Xu, Yizhou Liu, Xu Wei, Xiao Xiao, and <strong>Yi Zhou</strong>. “Ambiguity, Price Informativeness, and Disclosure Quality.”
 - Ding, Xiangyuan, Wei Huang, Yuqi Ta, and <strong>Yi Zhou</strong>. “Beyond Money: Time Costs as a Determinant of Healthcare Utilization.”
