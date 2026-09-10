@@ -7,7 +7,7 @@ permalink: /research/
 ## Working Papers
 
 - Raymo, James, Boyan Zheng, Qiang Ren and <strong>Yi Zhou</strong>. "The Effect of School Closures during the Pandemic on Parental Labor Supply in China." Accepted, *Journal of Labor Economics*.
-- - Liu, Wen, James Raymo, and <strong>Yi Zhou</strong>. “Change in Marital Satisfaction during the COVID-19 Pandemic in China: The Roles of Financial Stress and Housework Burden.” Accepted, *Demographic Research*.
+- Liu, Wen, James Raymo, and <strong>Yi Zhou</strong>. “Change in Marital Satisfaction during the COVID-19 Pandemic in China: The Roles of Financial Stress and Housework Burden.” Accepted, *Demographic Research*.
 - Zhang, Kexin, Yuxin Tang, and <strong>Yi Zhou</strong>. "Unequal Summers: Gendered Family Processes and Learning Loss in China." Revised and resubmitted, *Sociology of Education*.
 - Kang, Le, Di Wang, Xu Wei, Xiaoyang Ye, and <strong>Yi Zhou</strong>. “The Option Value of Later Specialization: Evidence from the Meta Major Reform in China’s College Education.” Revised and resubmitted, *Economic Development and Cultural Change*. [Link](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5273318)
 - Gao, Tingming, Xiao Xiao, and <strong>Yi Zhou</strong>. “People Dislike Inflation Only If They Understand It: How Financial Literacy Shapes Money Illusion.” Revised and resubmitted, *Journal of Behavioral and Experimental Economics*.
