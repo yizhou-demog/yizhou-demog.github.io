@@ -8,7 +8,7 @@ permalink: /publications/
 
 ### English
 
--- Yuan, Luoqi, and <strong>Yi Zhou</strong>. 2026. “Watching the Games, Building Trust? How the Olympics Temporarily Improve Chinese Attitudes towards Americans.” *China: An International Journal* 24 (3): 63–91. [Link](https://dx.doi.org/10.56159/chn.2026.a1000590)
+- Yuan, Luoqi, and <strong>Yi Zhou</strong>. 2026. “Watching the Games, Building Trust? How the Olympics Temporarily Improve Chinese Attitudes towards Americans.” *China: An International Journal* 24 (3): 63–91. [Link](https://dx.doi.org/10.56159/chn.2026.a1000590)
 - Zhang, Na, Ni Yan, Song Han, Canxu Zeng, <strong>Yi Zhou</strong><sup>&#42;</sup>, and Zhengxu Zhou<sup>&#42;</sup>. 2026. “Understanding the Impact of Rural In-migrants on Locals’ Architectural Tastes: Cultural Assimilation or Identity Reinforcement.” *Journal of Rural Studies* 122: 103941. [Link](https://www.sciencedirect.com/science/article/abs/pii/S0743016725003821)
 - Luo, Weijie, Shikun Qin, Zhengkai Yang, and <strong>Yi Zhou</strong><sup>&#42;</sup>. 2026. “From Trade to Tensions: How Economic Interdependence Shapes Diplomatic Hospitality, 1989–2019.” *The World Economy* 49 (2): 384–404. [Link](https://onlinelibrary.wiley.com/doi/10.1111/twec.70040)
 - Huang, Wei, Yinghao Pan<sup>&#42;</sup>, and <strong>Yi Zhou</strong><sup>&#42;</sup>. 2025. “One-Child Policy, Marriage Distortion, and Welfare Loss.” *Review of Economics and Statistics* 107 (5): 1341–55. [Link](https://direct.mit.edu/rest/article/107/5/1341/116188/One-Child-Policy-Marriage-Distortion-and-Welfare)
