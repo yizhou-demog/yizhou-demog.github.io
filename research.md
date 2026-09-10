@@ -7,11 +7,10 @@ permalink: /research/
 ## Working Papers
 
 - Raymo, James, Boyan Zheng, Qiang Ren and <strong>Yi Zhou</strong>. "The Effect of School Closures during the Pandemic on Parental Labor Supply in China." Accepted, *Journal of Labor Economics*.
+- - Liu, Wen, James Raymo, and <strong>Yi Zhou</strong>. “Change in Marital Satisfaction during the COVID-19 Pandemic in China: The Roles of Financial Stress and Housework Burden.” Accepted, *Demographic Research*.
 - Zhang, Kexin, Yuxin Tang, and <strong>Yi Zhou</strong>. "Unequal Summers: Gendered Family Processes and Learning Loss in China." Revised and resubmitted, *Sociology of Education*.
 - Kang, Le, Di Wang, Xu Wei, Xiaoyang Ye, and <strong>Yi Zhou</strong>. “The Option Value of Later Specialization: Evidence from the Meta Major Reform in China’s College Education.” Revised and resubmitted, *Economic Development and Cultural Change*. [Link](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5273318)
-- Liu, Wen, James Raymo, and <strong>Yi Zhou</strong>. “Change in Marital Satisfaction during the COVID-19 Pandemic in China: The Roles of Financial Stress and Housework Burden.” Revised and resubmitted, *Demographic Research*.
 - Gao, Tingming, Xiao Xiao, and <strong>Yi Zhou</strong>. “People Dislike Inflation Only If They Understand It: How Financial Literacy Shapes Money Illusion.” Revised and resubmitted, *Journal of Behavioral and Experimental Economics*.
-- Yuan, Luoqi, and <strong>Yi Zhou</strong>. “Watching the Games, Building Trust? How the Olympics Temporarily Improve Chinese Attitudes toward Americans.” Revised and resubmitted, *China: An International Journal*.
 - Lei, Zihui, Xiao Xiao, and <strong>Yi Zhou</strong>."Can Education Travel Upward? Adult Children's Schooling and Parents' Financial Market Participation." Under review. [Link](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6461758)
 - Yuan, Luoqi, Wei Huang, Xiaoyin Ma, Xiao Xiao, and  <strong>Yi Zhou</strong>. "Financial Literacy and Financial Policy Preferences: Evidence from Small Business Entrepreneurs in China." Under review.
 - Gao, Ming, Qingping Zhang, and <strong>Yi Zhou</strong>. “How Lives Change When Factories Arrive.” Under review.
